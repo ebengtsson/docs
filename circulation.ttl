@@ -1,0 +1,65 @@
+
+bf
+#http://bibframe.org/vocab-list/-->
+
+bf:circulationStatus	"non-circulating" ;
+#literal  ex available, checked out, missing, withdrawn, at the bindery-->
+bf:lendingPolicy
+#Policy statement about whether and with what restrictions the holding may be lent-->
+bf:accessCondition
+#Allowances and restrictions on access-->
+
+------------------------
+------------------------
+
+
+sdo
+#source: https://www.w3.org/community/schemabibex/wiki/Holdings_via_Offer-->
+sdo:availability
+#list of values-->
+Available for loan:
+<link property="availability" href="http://schema.org/InStock">
+Checked out:
+<link property="availability" href="http://schema.org/OutOfStock">
+On order:
+<link property="availability" href="http://schema.org/PreOrder" />
+Reference:
+<link property="availability" href="http://schema.org/InStoreOnly">
+
+
+sdo:businessFunction = "borrowing terms"
+gr:LeaseOut = "loan"
+"http://www.heppnetz.de/ontologies/goodrelations/v1#LeaseOut"
+#se tutleifierat exemple nedan
+
+ sdo:AggregateOffer
+ sdo:offerCount
+ # number of available copies
+
+---------------------
+
+#tutleifierat exempel från RDFa på https://www.w3.org/community/schemabibex/wiki/Holdings_via_Offer
+
+@prefix : <http://schema.org/> .
+@prefix gr: <http://purl.org/goodrelations/v1> .
+
+<http://123> a :Offer ;
+:availability :InStock ;
+:seller <http:bib>
+:serialNumber "CONC91000937" ;
+:sku "780 R2" ;
+:businessFunction gr:LeaseOut ;
+     # Example of a copy available for on-site use only
+:offers [ :typeof "Offer" ]
+:availability :InStoreOnly ;
+:seller <http:bib>
+:serialNumber "CONC91000938" ;
+:sku "780 R2"
+:businessFunction gr:LeaseOut ;
+     # Example of a copy that is currently checked out
+:offers [ :typeof "Offer" ]
+:availability :OutOfStock ;
+:seller <http:bib>
+:serialNumber "CONC91000939"
+:sku "780 R2"
+:businessFunction gr:LeaseOut .
