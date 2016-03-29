@@ -1,0 +1,94 @@
+
+text
+print
+serial
+
+<LIBR1858131#> a bf1:Work, bf1:Resource, bf1:Text ;
+    v:resourcetype "Periodical" ;
+    bf1:title "American film" ;
+    bf1:subtitle "journal of the film and television" ;
+    bf1:providerName "The American Film Institute" ;
+    bf1:keyTitle "American film" ;
+    bf1:abbreviatedTitle "Am. film" ;
+    bf1:summary "Vol. 1-17" .
+
+    <999000#item> a bf2:Item ;
+    bf1:heldBy </organization/Bibliotek#2S> ;
+    bf1:holdingFor </LIBR1858131#> ;
+    bf1:copyNote "v.1(1975/1976)-17:1(1992)" .
+
+   <999001#item> a bf2:Item ;
+   bf1:heldBy </organization/Bibliotek#Kd> ;
+   bf1:holdingFor </LIBR1858131#> ;
+   bf2:hasComponent
+            [ a bf2:Item ;
+                bf1:copyNote "Vol. 1(1976):4-16(1991)" ;
+                bf1:shelfMark "Tidskrifter I Plan 1" ] .
+
+    <999002#item> a bf2:Item ;
+    bf1:heldBy </organization/Bibliotek#O> ;
+    bf1:holdingFor </LIBR1858131#> ;
+    bf2:hasComponent
+             [ a bf2:Item ;
+                 :classification [ :classificationAssigner "SAB" ;
+                 bf1:classificationEdition "kssb/6" ;
+                 bf1:classificationNumber "Ima(p) ] ,
+                 bf1:copyNote "Vol. 2-9(1977-1984) [luckor]" ;
+                 bf1:shelfMark "per k-mag" ] .
+
+     <999003#item> a bf2:Item ;
+     bf1:heldBy </organization/Bibliotek#Sfi> ;
+     bf1:holdingFor </LIBR1858131#> ;
+     bf2:hasComponent
+              [ a bf2:Item ;
+                  bf1:copyNote "Vol.1(1975/76)-17(1992)" ;
+                  bf1:shelfMark "Tidskrifter # AMERICAN" ] .
+
+    <999003#item> a bf2:Item ;
+    bf1:heldBy </organization/Bibliotek#Ux> ;
+    bf1:holdingFor </LIBR1858131#> ;
+    bf2:hasComponent
+               [ a bf2:Item ;
+                  :classification [ :classificationAssigner "SAB" ;
+                  bf1:classificationEdition "kssb/6" ;
+                  bf1:classificationNumber "Imb-qa(p)" ] ,
+                  bf1:copyNote "Vol. 1-17:1 (1975-1992)" ;
+                  bf1:sublocation "USF" ;
+                  bf1:shelfMark "per" ] .
+
+--
+
+000		01419cas a22004217a 4500
+001		1858131
+003		SE-LIBR
+005		20050425135342.0
+008		011211d19751992xxu |p 0 0eng c
+022	 	a 0361-4751
+035	 	9 9919455962
+040	 	a U*
+084	 	a F(051) American film2 fiaf/2
+084	 	a F(051)(73)2 fiaf/2
+210	0 	a Am. film
+222	 0	a American film
+245	0 0	a American film :b journal of the film and television arts /c The American Film Institute
+260	 	a Washington, D.C.,c 1975-1992
+362	0 	a Vol. 1-17
+650	 7	a Tidskrifter, USA2 sfit
+710	2 	a The American Film Institute4 oth
+841	 	5 2Sba ya ab 0201080u 0 4000uu |000000e 3
+852	 	5 2Sbb 2Sb
+866	 	5 2Sba v.1(1975/1976)-17:1(1992)
+841	 	5 Kda y ab 1409154u 8 1001uu 0901128e 4
+852	8 	5 Kdb Kdh Tidskrifter I Plan 1
+866	 1	5 Kda Vol. 1(1976):4-16(1991)
+841	 	5 Oa ya ab 0201080u 0 4000uu |000000e 3
+084	 	5 Oa Ima(p)2 kssb/6
+852	 	5 Ob Oh per k-mag
+866	 	5 Oa Vol. 2-9(1977-1984) [luckor]
+841	 	5 Sfia yo ab 0504254u 8 1001uu 0901128e 4
+852	 	5 Sfib Sfic Tidskrifterl AMERICAN
+866	 	5 Sfia Vol.1(1975/76)-17(1992)
+841	 	5 Uxa ya ab 0201080u 0 4000uu |000000e 3
+084	 	5 Uxa Imb-qa(p)2 kssb/6
+852	 	5 Uxb Uxc USF :h per
+866	 	5 Ux9 USFa Vol. 1-17:1 (1975-1992)

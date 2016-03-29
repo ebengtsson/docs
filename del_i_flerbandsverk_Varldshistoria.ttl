@@ -1,0 +1,299 @@
+<LIBR335431#> a bf1:Work, bf1:Resource, bf1:Text ;
+    v:resourcetype "Monograph" ;
+    bf1:title "Bra böckers världshistoria" ;
+    bf1:partNumber "Bd 7" ;
+    bf1:partTitle "Upptäckternas tid" ;
+    bf1:providerName "av Niels Steensgaard" .
+    #motsvarighet till 245c?
+
+
+    <999001#item> a bf2:Item ;
+    bf1:heldBy </organization/Bibliotek#Am> ;
+    bf1:holdingFor </LIBR335431#> ;
+    :classification [ :classificationAssigner "SAB" ;
+    bf1:classificationEdition "kssb/6" ;
+    bf1:classificationNumber "K2", "K.382" ] ,
+    bf1:copyNote "Delarna specificerade" ;
+    bf2:hasComponent ;
+            [ a bf2:Item ;
+                bf2:componentOf <999001#item> ;
+                bf1:shelfMark "rK B Ref.", "84-50:(1-15)" ] .
+            [ a bf2:Item ;
+                bf2:componentOf <999001#item> ;
+                bf1:shelfMark "B Ref.", "84-50:(7)" ] .
+
+
+    <999002#item> a bf2:Item ;
+    bf1:heldBy </organization/Bibliotek#Aom> ;
+    bf1:holdingFor </LIBR335431#> ;
+    :classification [ :classificationAssigner "SAB" ;
+    bf1:classificationEdition "kssb/6" ;
+    bf1:classificationNumber "K2" ] ,
+    bf1:systemNumber "(Aom)12763" ;
+    bf1:immediateAcquisition "160 / 86 1986:160" ;
+    bf1:shelfMark "Ba" .
+
+    <999003#item> a bf2:Item ;
+    bf1:heldBy </organization/Bibliotek#Are> ;
+    bf1:holdingFor </LIBR335431#> ;
+    bf1:shelfMark "K" .
+
+    <999004#item> a bf2:Item ;
+    bf1:heldBy </organization/Bibliotek#Ark> ;
+    bf1:holdingFor </LIBR335431#> ;
+    bf1:shelfMark "Ark" .
+
+    <999005#item> a bf2:Item ;
+    bf1:heldBy </organization/Bibliotek#Bast> ;
+    bf1:holdingFor </LIBR335431#> ;
+    bf1:shelfMark "1.1", "Bast" .
+
+    <999006#item> a bf2:Item ;
+    bf1:heldBy </organization/Bibliotek#Bcwt> ;
+    bf1:holdingFor </LIBR335431#> ;
+    :classification [ :classificationAssigner "SAB" ;
+    bf1:classificationEdition "kssb/6" ;
+    bf1:classificationNumber "K.382", "N:k2" ] ,
+    bf1:shelfMark "Swe 4", "Bra" .
+
+    <999007#item> a bf2:Item ;
+    bf1:heldBy </organization/Bibliotek#Bthg> ;
+    bf1:holdingFor </LIBR335431#> ;
+    :classification [ :classificationAssigner "SAB" ;
+    bf1:classificationEdition "kssb/6" ;
+    bf1:classificationNumber "K.382" ] ,
+    madsrdf:Authority "Historia", "Senmedeltiden" ;
+    bf1:shelfMark "900", "REF" ;
+    bf1:copyNote "Bd. 1-15".
+
+    <999008#item> a bf2:Item ;
+    bf1:heldBy </organization/Bibliotek#D> ;
+    bf1:holdingFor </LIBR335431#> ;
+    bf1:shelfMark "Ref.", "K Bra" .
+
+    <999009#item> a bf2:Item ;
+    bf1:heldBy </organization/Bibliotek#G> ;
+    bf1:holdingFor </LIBR335431#> ;
+    bf1:copyNote "Bd 1-16, Delarna specificerade" ;
+    bf2:hasComponent ;
+            [ a bf2:Item ;
+                bf2:componentOf <999009#item> ;
+                bf1:shelfMark "Gh ÖM K", "86/111t" ] .
+            [ a bf2:Item ;
+                bf2:componentOf <999009#item> ;
+                bf1:shelfMark "Gh ÖM K", "86/111t" ] .
+
+    <999010#item> a bf2:Item ;
+    bf1:heldBy </organization/Bibliotek#Gbg> ;
+    bf1:holdingFor </LIBR335431#> ;
+    bf1:shelfMark "Gbg" .
+
+    <999011#item> a bf2:Item ;
+    bf1:heldBy </organization/Bibliotek#Gk> ;
+    bf1:holdingFor </LIBR335431#> ;
+    bf2:hasComponent ;
+            [ a bf2:Item ;
+                bf2:componentOf <999011#item> ;
+                bf1:shelfMark "Gk", "Ref K" ] .
+            [ a bf2:Item ;
+                bf2:componentOf <999011#item> ;
+                bf1:shelfMark "Kursbok" ] .
+
+    <999012#item> a bf2:Item ;
+    bf1:heldBy </organization/Bibliotek#Mo> ;
+    bf1:holdingFor </LIBR335431#> ;
+    :classification [ :classificationAssigner "SAB" ;
+    bf1:classificationEdition "kssb/8" ;
+    bf1:classificationNumber "K2" ] ,
+    bf1:systemNumber "(Mo)b1099843" ;
+    bf1:copyNote "Orig:s titel Aschehougs verdenshistorie" ;
+    :languageNote "svenska" ;
+    :GenreTerm "Bok" ;
+    bf1:shelfMark "K" .
+    #698	 	5 Mob Historia
+    #698	 	5 Mob Lärdomshistoria
+
+
+
+------
+
+000		08216cam a2202173 r4500
+001		335431
+003		SE-LIBR
+005		20110204122331.0
+008		011211s1985 sw 001 0 swe
+020	 	a 91-86102-89-3 (inb.) ;c 165:50 (Bra bok). (Inb.) : 155:00 (tills. med 2 andra böcker). - Ej i bokh. (Bra böcker)
+035	 	9 9186102893
+040	 	a NB
+041	1 	a sweh dan
+042	 	9 NB9 NB
+082	0 4	a 9092 22/swe
+084	 	a K2 kssb/5
+245	1 0	a Bra böckers världshistoria.n Bd 7,p Upptäckternas tid : 1350-1500 /c av Niels Steensgaard ; övers.: Ingrid och Tryggve Emond
+249	 0	a Verlden på oppdagelsenes tid ((norska)).
+260	 	a Höganäs :b Bra böcker,c 1985 ;e (Belgien)
+300	 	a 271, [1] s. :b diagr., ill., kart.
+500	 	a Övers. från danskt orig.-ms.
+599	 	a NB: Uppl. 1995- innehållsmässigt oförändrad
+599	 	a NB: Ny uppl., 1995- under signum Sv95Q/2228
+599	 	a NB: Publicerad i norsk övers. men översatt till svenska från danskt orig.-ms. Endast en utg. med olika skyddsomslag
+700	1 	a Helle, Knut,d 1930-4 edt0 223978
+700	1 	a Steensgaard, Niels4 oth
+700	1 	a Emond, Ingrid,c 1925-4 trl
+700	1 	a Emond, Tryggve,d 1925-4 trl0 229612
+740	0 	a Upptäckternas tid
+772	0 0	7 nnt Bra böckers världshistoriac redaktörer: Knut Helle ...d Höganäs : Bra böcker, 1982-w 99034141299 07
+900	1 s	6 700a Emond, Lars Tryggve,d 1925-u Emond, Tryggve,d 1925-
+976	 2	a Kb Historia Allmänt
+841	 	5 Ama xa ab 0201070u 0 4000uu |000000e 3
+084	 	5 Ama K2 kssb/6
+084	 	5 Ama K.382 kssb/6
+852	 	5 Amb Amh rK B Ref.j 84-50:(1-15)
+852	 	5 Am8 1.1\cb Amh rK B Ref.j 84-50:(7)
+866	 	5 Ama 1-15x Delarna specificerade
+841	 	5 Aoma x ab 130821||0000|||||001||||||000000e 1
+035	 	5 Aoma (Aom)12763
+084	 	5 Aoma K2 kssb/6
+541	 	5 Aome 160 / 86 1986:160
+852	 	5 Aomb Aomc Ba
+841	 	5 Areba u ab 140707||0000|||||001||||||000000e 1
+852	 	5 Arebb Arebh K
+841	 	5 Arka x ab 0701164u 8 1001uu 0901128e 4
+852	 	5 Arkb Ark
+841	 	5 Basta xa ab 0201070u 0 4000uu |000000e 1
+852	 	5 Bast8 1.1\cb Bast
+841	 	5 Bcwta xa ab 0201070u 0 4000uu |000000e 1
+084	 	5 Bcwta K.382 kssb/6
+084	 	5 Bcwta N:k2 kssb/6
+852	 	5 Bcwt8 1.1\cb Bcwth Swe 4j Bra
+841	 	5 Bthga xa ab 0201070u 0 4000uu |000000e 3
+084	 	5 Bthga K.382 kssb/6
+653	 	5 Bthga Historia
+653	 	5 Bthga Senmedeltiden
+852	 	5 Bthg8 1.1\cb Bthgh 900i REF
+866	 	5 Bthga Bd. 1-15
+841	 	5 Da x ab 051102|| |||||001||||||000000e 1
+852	8 	5 Db Dc Ref.h K Bra
+841	 	5 Ga xa ab 0201070u 0 4000uu |000000e 3
+852	 	5 G8 1.1b Gh ÖM Kj 86/111t 1
+852	 	5 G8 1.2\cb Gh ÖM Kj 86/111t 5
+866	 	5 Ga Bd 1-16, Delarna specificerade
+841	 	5 Gbga u ab 080819||0000|||||001||||||000000e 1
+852	 	5 Gbgb Gbg
+841	 	5 Gka x ab 0302254u 8 1001uu 0901128e 4
+852	 	5 Gk8 1.1\cb Gkh Ref K
+852	 	5 Gkb Gk \h Kursbok
+841	 	5 Gxa xa ab 0201070u 0 4000uu |000000e 3
+852	 	5 Gx8 1.3b Gxc Histh Allm
+852	 	5 Gx8 1.1\cb Gxc Histh Allm
+841	 	5 Ha xa ab 0201070u 0 4000uu |000000e 3
+084	 	5 Ha K2 kssb/5
+852	 	5 Hb Hc PLAN 5h K
+852	 	5 H8 1.1\cb Hc PLAN 5h Kt 1
+866	 	5 Ha 1-x Delarna specificerade
+841	 	5 Hagfa u ab 120403||0000|||||001||||||000000e 1
+852	 	5 Hagfb Hagfh K
+841	 	5 Hala xa ab 0201070u 0 4000uu |000000e 1
+852	 	5 Halb Halh Referens
+841	 	5 Hdfa xa ab 0201070u 0 4000uu |000000e 1
+852	 	5 Hdf8 1.1\cb Hdfh K(s)
+841	 	5 Hiba xa ab 0201070u 0 4000uu |000000e 3
+084	 	5 Hiba K.382 kssb/6
+852	 	5 Hib8 1.1\cb Hibh K Ref.
+841	 	5 Hsda xa ab 0201070u 0 4000uu |000000e 1
+852	 	5 Hsd8 1.1\cb Hsdx LibrisUPD
+841	 	5 Jona xa ab 0201070u 0 4000uu |000000e 3
+084	 	5 Jona K.382 kssb/6
+653	 	5 Jona Historia
+653	 	5 Jona Medeltiden
+653	 	5 Jona Upptäcktsresor
+852	 	5 Jon8 1.1\cb Jonh Kj BRA
+866	 	5 Jona 1-16
+841	 	5 Krha xa ab 0201070u 0 4000uu |000000e 1
+084	 	5 Krha K2 kssb/6
+653	 	5 Krha Geografiska upptäckter
+653	 	5 Krha Historia
+653	 	5 Krha Senmedeltiden
+653	 	5 Krha Upptäckter
+852	 	5 Krh8 1.1\cb Krhh Kj Brat 1
+841	 	5 La xa ab 0201070u 0 4000uu |000000e 3
+084	 	5 La K2 kssb/5
+852	 	5 L8 1.1\cb Lc 0100h f96/j 37
+866	 	5 La 1-16x Delarna specificerade
+841	 	5 Laa xa ab 0201070u 0 4000uu |000000e 3
+084	 	5 Laa K2 kssb/5
+852	 	5 La8 1.1\cb Lah Kt 1
+866	 	5 Laa Bd 1-15
+841	 	5 Lia xa ab 0201070u 0 4000uu |000000e 3
+852	1 	5 Lib Lic VALLAh REF 909
+841	 	5 LnuKa xa ab 0201070u 0 4000uu |000000e 3
+852	 	5 LnuKb LnuKh K Braj REF
+866	 	5 LnuKa 1-16
+841	 	5 LnuVa xa ab 0201070u 0 4000uu |000000e 3
+852	 	5 LnuVb LnuVh Ref Kj Bra
+852	 	5 LnuV8 1.1\cb LnuVh Ref K
+866	 	5 LnuVa Bd 1-15, komplementbd
+841	 	5 Maha x ab 081001|| |||||001||||||000000e 1
+852	 	5 Mahb Mahh K
+841	 	5 Mdva xa ab 0201070u 0 4000uu |000000e 1
+852	 	5 Mdv8 1.1\cb Mdv
+841	 	5 Mhha xa ab 0201070u 0 4000uu |000000e 3
+084	 	5 Mhha K.382 kssb/6
+852	 	5 Mhhb Mhhh K
+852	 	5 Mhh8 1.1\cb Mhhc Arcanah A11704
+866	 	5 Mhha 1-x Delarna specificerade
+841	 	5 Mhsa xa ab 0201070u 0 4000uu |000000e 3
+852	 	5 Mhs8 1.1\cb Mhsh REF K
+866	 	5 Mhsa Bd 1-
+841	 	5 Moa x ab 090303||0000|||||001||||||000000e 1
+035	 	5 Moa (Mo)b1099843
+084	 	5 Moa K2 kssb/8
+500	 	5 Moa Orig:s titel Aschehougs verdenshistorie
+546	 	5 Moa svenska
+655	 4	5 Moa Bok
+698	 	5 Mob Historia
+698	 	5 Mob Lärdomshistoria
+852	 	5 Mob Moh K
+841	 	5 NBa xa ab 0201070u 0 4000uu |000000e 1
+084	 	5 NBa K2 kssb
+852	 	5 NBb NBc 82:33h ref fackj PL
+852	 	5 NB8 1.1\cb NBc 85:15h L BI ref fackj MA, 850717
+841	 	5 Olmba x ab 0511084u 8 1001uu 0901128e 4
+852	 	5 Olmbb Olmbh K
+841	 	5 Qa xa ab 0201070u 0 4000uu |000000e 3
+084	 	5 Qa K2 kssb/5
+852	 	5 Q8 1.1\cb Qh kFj 175
+866	 	5 Qa 1-15x Delarna specificerade
+841	 	5 Sa xa ab 0201070u 0 4000uu |000000e 3
+084	 	5 Sa K2 kssb/5
+852	 	5 S8 1.1b Sh RefKBj 909, Brat A
+852	 	5 S8 1.2b Sh Se delarna
+852	 	5 S8 1.1\cb Sh RefKBj 909, Brat A
+852	 	5 S8 1.2\cb Sh Sv82Qj 1251t B
+866	 	5 Sa 1-16x Delarna specificerade
+866	 	5 S8 1.1\cx Reserv2
+841	 	5 Slma x ab 1106230u 0 4000uu |000000e 1
+852	 	5 Slmb Slmc Refh Ki Ej hemlån
+841	 	5 Tcta xa ab 0201070u 0 4000uu |000000e 3
+084	 	5 Tcta K.382 kssb/6
+852	 	5 Tct8 1.1\cb Tctc Ref.h Kj BRA
+866	 	5 Tcta Bd 1-16
+841	 	5 Ua xa ab 0201070u 0 4000uu |000000e 3
+084	 	5 Ua K2 kssb/5
+852	 	5 Ub Uc Svh q 1983-j 5
+852	 	5 U8 1.1\cb Uc Svh q 1983-j 5:7
+866	 	5 U8 1.1a 1-[16] (1983-1993)
+866	 	5 U8 1.2a Delarna specificeras
+841	 	5 Ubla xa ab 0201070u 0 4000uu |000000e 3
+852	 	5 Ublb Ublh K
+866	 	5 Ubla Bd 1-15, komplementbd
+841	 	5 Ugota xa ab 0201070u 0 4000uu |000000e 3
+852	 	5 Ugotb Ugoth K(x)
+852	 	5 Ugot8 1.1\cb Ugotc REFh K(x)
+866	 	5 Ugota 1-, Delarna specificeras
+841	 	5 Uma xa ab 0201070u 0 4000uu |000000e 1
+852	 	5 Um8 1.1\cb Um
+841	 	5 Umdpa xa ab 0201070u 0 4000uu |000000e 3
+852	 	5 Umdp8 1.1\cb Umdpj F394
+841	 	5 Vgma x ab 070830||____|||||001||||||000000e 1
+852	 	5 Vgmb Vgmh Ki Ej fjärrlån
