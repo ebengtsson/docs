@@ -1,0 +1,130 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix bf2: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix kbv: <https://id.kb.se/vocab/> .
+
+
+#DVD-box + bok + flipbook
+
+_I0 #förpackningen
+<http://libris.kb.se/bib/11474887> a bf2:Instance <Print> ;
+bf2:media <video>, <unmediated> ;
+bf2:Title [
+   bf2:mainTitle:"Don't look back" ;
+   bf2:responsibilityStatement: "Bob Dylan / a film by D.A. Pennebaker with Joan
+   Baez, Alan Price, Albert Grossman, Donovan" ] ;
+bf2:editionStatement "65 tour deluxe edition" ;
+bf2:Publication [
+   bf2:place <New York> ;
+   bf2:agent <New Video Group> ;
+   bf2:copyrightDate "c 2006" ] ;
+bf2:Ean "828768321393" ;
+???:contents "2 DVD, 1 book, 1 flipbook in box" ;
+bf2:hasPart _I1, _I2, _I3, _I4 .
+
+
+_I1 #huvudfilmen
+<http://libris.kb.se/bib/11474887#1> a bf2:Instance <Print> ;
+bf2:Title [
+   bf2:instanceTitle "Don't look back ;
+   bf2:responsibilityStatement: "Bob Dylan / a film by D.A. Pennebaker ] ;
+bf2:media <video> ;
+bf2:carrier <videodisc> ;
+bf2:videoFormat <DVD-Video> ;
+xx:numberOfItems "1" ;
+bf2:extent "92 min." ;
+bf2:partOf _I0 ;
+bf2:instanceOf _W1 .
+
+
+_I2 #bonusfilm
+<http://libris.kb.se/bib/11474887#2> a bf2:Instance <Print> ;
+bf2:instanceTitle "Bob Dylan 65 revisited" ;
+bf2:media <video> ;
+bf2:carrier <videodisc> ;
+bf2:videoFormat <DVD-Video> ;
+xx:numberOfItems "1" ;
+bf2:extent "65 min." ;
+bf2:partOf _I0 .
+
+
+_I3 #pocket med stillbilder och citat från filmen
+<http://libris.kb.se/bib/11474887#3> a bf:Instance <Print> ;
+owl:sameAs <http://www.worldcat.org/title/bob-dylan-dont-look-back/oclc/758149521> ;
+bf2:media <unmediated> ;
+bf2:carrier <volume> ;
+bf2:extent "160 p." ;
+bf2:illustrativeContent "yes" ;
+bf:dimensions "17 cm" ;
+bf2:Ean "767685982730" ;
+bf2:Isbn "0-7670-9157-4" ;
+bf2:Publication [
+   bf2:place <New York> ;
+   bf2:agent <New Video Group> ;
+   bf2:copyrightDate "c 2006" ] ;
+bf2:Manufacture [
+   bf2:place <China> ] ;
+bf2:otherEdition _I5
+bf2:partOf _I0 ;
+bf2:instanceOf _W2 .
+
+
+_I4 #flipbook
+<http://libris.kb.se/bib/11474887#4> a bf:Instance <print> ;
+bf2:media <unmediated> ;
+bf2:carrier <volume> ;
+bf2:extent "[200 p.]" ;
+bf2:illustrativeContent "yes" ;
+bf2:dimensions "4 x 8 cm" ;
+bf2:Ean "767685982839" ;
+bf2:Isbn "0-7670-9158-2" ;
+bf2:Publication [
+   bf2:place <New York> ;
+   bf2:agent <New Video Group> ;
+   bf2:copyrightDate "c 2006" ] ;
+bf2:Manufacture [
+   bf2:place <China> ] ;
+bf2:partOf _I0 .
+
+
+
+_I5 #originalupplafa för pocket
+<http://www.worldcat.org/title/bob-dylan-dont-look-back/oclc/434260> a bf2:Instance <print> ;
+bf2:carrier <volume> ;
+bf2:extent "160 p." ;
+bf:illustrativeContent "yes" ;
+bf2:Publication [
+   bf2:place <New York> ;
+   bf2:agent <Ballantine Books> ;
+   bf2:copyrightDate "1968" ] ;
+bf2:otherEdition _I3
+bf2:instanceOf _W2 .
+
+-------
+
+_W1 <https://en.wikipedia.org/wiki/Dont_Look_Back> a bf2:Work <MovingImage> ;
+bf2:mainTitle "Don't look back" ;
+bf:originDate "1967" ;
+kbv:qualifiedAttribution [ a kbv:MainAttribution ;
+            bf2:role <director> ;
+            :agent <Pennebaker, D. A.> ] ;
+#alternativt
+bf2:contribution [
+   prov:wasAttributedTo <Pennebaker, D. A.> ;
+   bf2:role <director> ] ;
+bf2:classificationDdc <782.42166092> ;
+bf2:summary "An American documentary film by D. A. Pennebaker that covers Bob
+   Dylan's 1965 concert tour in England" ;
+bf2:historyOfWork "Premiere May 17, 1967, at the Presidio Theater, San Francisco" ;
+bf2:hasInstance _I1 .
+
+
+_W2 <http://xxx.xxx>
+a bf2:Work <Text> ;
+bf2:Title "Don't look back" ;
+bf2:contribution [
+   prov:wasAttributedTo <Pennebaker, D. A.> ;
+   bf:role <author> ] .
+bf:originDate "1968" ;
+bf2:classificationDdc <782.42166092> ;
+bf2:summary "Transcript of the film, Don't Look Back, which is a portrait of Bob Dylan" ;
+bf2:hasInstance _I3, _I5 .
