@@ -1,0 +1,23 @@
+marcframepostProcessing marc:publishedYear [008/7:11]rad 380 "manufacture" om Manuscript [000/d,f,t?]000d/f/t anv även för reproduktioner av manuskript
+006rad 584 för Serials "aboutEntity": "?work",jfr diskussionen om Periodica som Instans
+006 Cartographyrad 819-822 "MapsPrimeMeridianType"Verkar vara fel. Ligger fel i sekvensen + position 7 är odefinierad för kartor
+006 Visualrad 860-878 VisualMatterTypeposition 6-10 är odefinierade för visuellt material
+006 Mixedrad 909-912 marc:additionalCarrierTypeposition 7 är odefinierad för blandat material
+006 Serialsrad 926 SerialsISSNTypeposition 3 är odefinierad för periodica
+007 Mapsrad 1047 MapAspectTypeposition 2 är odefinierad för kartor
+007 Computerrad 1104 MapAspectTypeposition 2 är odefinierad för digitalt lagrade resurser
+007 Globerad 1132 MapAspectTypeposition 2 är odefinierad för glober
+007 ProjectedImagerad 1217 MapAspectTypeposition 2 är odefinierad för projicerbara [still]bilder
+007 Microformrad 1245-1249 ser skumt ut. Två olika rubriker i MARC har slagits samman: Förminskningsgrad, exakt + Färg.
+007 Microformrad 1266 MapAspectTypeposition 2 är odefinierad för mikroformer
+007 StillImagerad 1294 MapAspectTypeposition 2 är odefinierad för Stillbilder/Bilder
+007 MovingImagerad 1378 MapAspectTypeposition 2 är odefinierad för Spelfilmer
+007 NotatedMusicrad 1392-1396 KitMaterialTypeBorde väl vara NotatedMusicType e dyl
+007 RemoteSensingImagerad 1400 KitMaterialTypeBorde väl vara emoteSensingImageType e dyl
+007 SoundRecordingrad 1502 MapAspectTypeposition 2 är odefinierad för ljudupptagningar
+008 Digitalrad 1791 ComputerFrequencyTyperad 1796 ComputerRegularityTypeposition 18/19 är odefinierade för elektroniska resurser
+008 Cartographyrad 1862 MapsPrimeMeridianTypeposition 24 är odefinierad för kartor
+008 Serialsrad 1962 SerialsISSNTypeposition 20 är odefinierad för fortlöpande resurser
+008 Visualrad 2063-2081 VisualMatterTypeposition 23-27 är odefinierade för grafiska resurser (visual materials)
+034 Coded Cartographic Mathematical Datarad 2462 _spec ofullständig
+041 Language coderad 2541fältdefinitionerna omkastade#h _:translationSource [MARC21 Language code of original]#k _:original [MARC21 Language code of intermediate translations]
