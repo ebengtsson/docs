@@ -1,5 +1,11 @@
-marcframepostProcessing marc:publishedYear [008/7:11]rad 380 "manufacture" om Manuscript [000/d,f,t?]000d/f/t anv även för reproduktioner av manuskript
-006rad 584 för Serials "aboutEntity": "?work",jfr diskussionen om Periodica som Instans
+postProcessing 
+marc:publishedYear [008/7:11]
+rad 380 "manufacture" om Manuscript [000/d,f,t?]
+000d/f/t anv även för reproduktioner av manuskript
+
+006
+rad 584 för Serials "aboutEntity": "?work",
+jfr diskussionen om Periodica som Instans
 006 Cartographyrad 819-822 "MapsPrimeMeridianType"Verkar vara fel. Ligger fel i sekvensen + position 7 är odefinierad för kartor
 006 Visualrad 860-878 VisualMatterTypeposition 6-10 är odefinierade för visuellt material
 006 Mixedrad 909-912 marc:additionalCarrierTypeposition 7 är odefinierad för blandat material
