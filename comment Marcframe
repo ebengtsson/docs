@@ -19,8 +19,8 @@ position 6-10 är odefinierade för visuellt material
 rad 909-912 marc:additionalCarrierType
 position 7 är odefinierad för blandat material
 
-006 Serial
-srad 926 SerialsISSNType
+006 Serials
+rad 926 SerialsISSNType
 position 3 är odefinierad för periodica
 
 007 Maps
