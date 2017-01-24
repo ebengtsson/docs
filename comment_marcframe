@@ -88,3 +88,40 @@ rad 2541
 fältdefinitionerna omkastade
 #h _:translationSource [MARC21 Language code of original]#k _:original [MARC21 Language code of intermediate translations]
 
+#20170124
+110
+rad 2728
+hantering av organisationer med personnamn. Ska namnet delas upp i förnamn + efternamn? Går det ens?
+rad 2738
+#c #d saknas. Jfr 111#c #d 
+
+210
+aboutEntity:?work - inte ?thing ??
+
+222
+aboutEntity:?work - inte ?thing ??
+rad 2773
+hantering av filering (ind 2). Förekommer på fler fält (jfr TODO rad 2785 (240))
+
+242
+aboutEntity:work - inte ?thing ???? översatt titel=expression
+
+243
+aboutEntity:? grupptitel=typ anmärkning??
+
+245
+hantering av filering (ind 2).
+
+250
+#b hantera betydelsebärande interpunktion? ("=" = upplageuppgift angiven på annat språk ; "/" = upphov)
+
+260
+rad 2979
+Hanteringen av #f håller inte om 260 med både #ab och #ef repeteras. Se t ex id 8257615 (Fornvännen med #abbcef) 
+(motsvarar ex på rad 3026)
+
+? Fält 261/262/265 ej definierade i MARC21
+
+310 #b saknas
+jfr 321
+
