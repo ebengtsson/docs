@@ -142,4 +142,11 @@ TODO:ignoreOnRevertInFavourOf": "773?" - innebär?
 522 bf2:geographicCoverage 
 524 bf2:preferredCitation
 525 bf2:supplementaryContent
+535 bf2:subLocation (Item)
+540 bf2:usageAndAccessPolicy
+541 bf2:acquisitionSource    
+542 bf2:copyrightRegistration  
+544
+
+
 
