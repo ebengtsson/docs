@@ -132,3 +132,14 @@ rad 3205-3207 hör ej till bib
 
 490
 TODO:ignoreOnRevertInFavourOf": "773?" - innebär?
+
+
+501 bf2:accompaniedBy
+506 bf2:usageAndAccessPolicy
+507 bf2:scale
+515 bf2:enumerationAndChronology
+518 bf2:temporalCoverage
+522 bf2:geographicCoverage 
+524 bf2:preferredCitation
+525 bf2:supplementaryContent
+
