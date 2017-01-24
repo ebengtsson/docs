@@ -83,13 +83,8 @@ position 20 är odefinierad för fortlöpande resurser
 rad 2063-2081 VisualMatterType
 position 23-27 är odefinierade för grafiska resurser (visual materials)
 
-034 Coded Cartographic Mathematical Data
-rad 2462 _spec ofullständig
-
 041 Language code
 rad 2541
 fältdefinitionerna omkastade
 #h _:translationSource [MARC21 Language code of original]#k _:original [MARC21 Language code of intermediate translations]
 
-100/110
-rad 2725-2730 hamnat fel?
