@@ -1,3 +1,5 @@
+bib
+
 postProcessing 
 marc:publishedYear [008/7:11]
 rad 380 "manufacture" om Manuscript [000/d,f,t?]
@@ -191,3 +193,8 @@ rad 3797
     rdfs:subClassOf :Book,
         :PublicationVolume .]
 
+884/885 saknas
+
+auth
+
+ 
