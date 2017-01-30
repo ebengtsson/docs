@@ -120,7 +120,7 @@ rad 2979
 Hanteringen av #f håller inte om 260 med både #ab och #ef repeteras. Se t ex id 8257615 (Fornvännen med #abbcef) 
 (motsvarar ex på rad 3026)
 
-? Fält 261/262/265 ej definierade i MARC21
+Fält 261/262/265 ej definierade i MARC21 (261/262 endast USMARC. 265 obsolete)
 
 310 #b saknas
 jfr 321
@@ -137,16 +137,57 @@ TODO:ignoreOnRevertInFavourOf": "773?" - innebär?
 501 bf2:accompaniedBy
 506 bf2:usageAndAccessPolicy
 507 bf2:scale
+513
+514
 515 bf2:enumerationAndChronology
+516
 518 bf2:temporalCoverage
 522 bf2:geographicCoverage 
 524 bf2:preferredCitation
 525 bf2:supplementaryContent
+526
+534
 535 bf2:subLocation (Item)
+536
 540 bf2:usageAndAccessPolicy
 541 bf2:acquisitionSource    
 542 bf2:copyrightRegistration  
 544
+545
+547
+550
+552
+555
+556
+561
+563
+565
+567
+580
+581
+583
+584
+585
+586
+590
 
+647 saknas
+658 har hamnat lite fel (före 656, 657)
 
+755 (obsolete)
+
+785
+rad 3797
+"inherit": "780" verkar fel. Borde nog vara 
+ "inherit": "772",
+      "TOOO:i1": {},
+      "TOOO:i2": {},
+      
+ 890 vad är PublicationVolume & vad innebär det här?
+    [jfr definitions/source/vocab/materials: 
+    :BookVolume a owl:Class;
+    rdfs:label "Book Volume"@en, "Bokband"@sv ;
+    skos:altLabel "Band"@sv, "Volym"@sv ;
+    rdfs:subClassOf :Book,
+        :PublicationVolume .]
 
