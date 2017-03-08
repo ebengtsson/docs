@@ -2,99 +2,85 @@ bib
 
 postProcessing 
 marc:publishedYear [008/7:11]
-rad 380 "manufacture" om Manuscript [000/d,f,t?]
+rad 379 "manufacture" om Manuscript [000/d,f,t?]
 000d/f/t anv även för reproduktioner av manuskript
 
 006
-rad 584 för Serials "aboutEntity": "?work",
+rad 606 för Serial "aboutEntity": "?work",
 jfr diskussionen om Periodica som Instans
 
 006 Cartography
-rad 819-822 "MapsPrimeMeridianType"
-Verkar vara fel. Ligger fel i sekvensen + position 7 är odefinierad för kartor
+rad 841 "MapsPrimeMeridianType"
+Verkar vara fel. Ligger fel i sekvensen + position 7 är odefinierad för kartor i MARC21/Voyager
 
 006 Visual
-rad 860-878 VisualMatterType
-position 6-10 är odefinierade för visuellt material
+rad 877 VisualMatterType
+position 6-10 är odefinierade för visuellt material i MARC21/Voyager
 
 006 Mixed
-rad 909-912 marc:additionalCarrierType
-position 7 är odefinierad för blandat material
+rad 931 marc:additionalCarrierType
+position 7 är odefinierad för blandat material i MARC21/Voyager
 
-006 Serials
-rad 926 SerialsISSNType
-position 3 är odefinierad för periodica
+007 Map
+rad 1069 MapAspectType
+position 2 är odefinierad för kartor i MARC21/Voyager
 
-007 Maps
-rad 1047 MapAspectType
-position 2 är odefinierad för kartor
-
-007 Computer
-rad 1104 MapAspectType
-position 2 är odefinierad för digitalt lagrade resurser
+007 Electronic
+rad 1126 MapAspectType
+position 2 är odefinierad för digitalt lagrade resurser i MARC21/Voyager
 
 007 Globe
-rad 1132 MapAspectType
-position 2 är odefinierad för glober
+rad 1154 MapAspectType
+position 2 är odefinierad för glober i MARC21/Voyager
 
 007 ProjectedImage
-rad 1217 MapAspectType
-position 2 är odefinierad för projicerbara [still]bilder
+rad 1239 MapAspectType
+position 2 är odefinierad för projicerbara [still]bilder i MARC21/Voyager
 
 007 Microform
-rad 1245-1249 ser skumt ut. Två olika rubriker i MARC har slagits samman: Förminskningsgrad, exakt + Färg.
-
-007 Microform
-rad 1266 MapAspectType
-position 2 är odefinierad för mikroformer
+rad 1291 MapAspectType
+position 2 är odefinierad för mikroformer i MARC21/Voyager
 
 007 StillImage
-rad 1294 MapAspectType
-position 2 är odefinierad för Stillbilder/Bilder
+rad 1319 MapAspectType
+position 2 är odefinierad för Stillbilder/Bilder i MARC21/Voyager 
 
 007 MovingImage
-rad 1378 MapAspectType
-position 2 är odefinierad för Spelfilmer
+rad 1402 "[17:23]" ser inte ut att vara klar
+rad 1403 MapAspectType
+position 2 är odefinierad för Spelfilmer i MARC21/Voyager
 
 007 NotatedMusic
-rad 1392-1396 KitMaterialType
-Borde väl vara NotatedMusicType e dyl
+rad 1421 KitMaterialType
+Borde väl vara NotatedMusicType eller ngt liknande
 
 007 RemoteSensingImage
-rad 1400 KitMaterialTyp
-eBorde väl vara emoteSensingImageType e dyl
+rad 1428 KitMaterialTyp
+eBorde väl vara emoteSensingImageType eller ngt liknande
 
 007 SoundRecording
-rad 1502 MapAspectType
-position 2 är odefinierad för ljudupptagningar
+rad 1527 MapAspectType
+position 2 är odefinierad för ljudupptagningar i MARC21/Voyager
 
 008 Digital
-rad 1791 ComputerFrequencyType
-rad 1796 ComputerRegularityType
-position 18/19 är odefinierade för elektroniska resurser
+rad 1816 ComputerFrequencyType
+rad 1821 ComputerRegularityType
+position 18/19 är odefinierade för elektroniska resurser i MARC21/Voyager
 
 008 Cartography
-rad 1862 MapsPrimeMeridianType
-position 24 är odefinierad för kartor
-
-008 Serials
-rad 1962 SerialsISSNType
-position 20 är odefinierad för fortlöpande resurser
+rad 1887 MapsPrimeMeridianType
+position 24 är odefinierad för kartor i MARC21/Voyager
 
 008 Visual
-rad 2063-2081 VisualMatterType
-position 23-27 är odefinierade för grafiska resurser (visual materials)
+rad 2088-2111 VisualMatterType
+position 23-27 är odefinierade för grafiska resurser (visual materials) i MARC21/Voyager
 
 041 Language code
 rad 2541
 fältdefinitionerna omkastade
 #h _:translationSource [MARC21 Language code of original]#k _:original [MARC21 Language code of intermediate translations]
 
-#20170124
 110
-rad 2728
-hantering av organisationer med personnamn. Ska namnet delas upp i förnamn + efternamn? Går det ens?
-rad 2738
 #c #d saknas. Jfr 111#c #d 
 
 210
@@ -102,14 +88,10 @@ aboutEntity:?work - inte ?thing ??
 
 222
 aboutEntity:?work - inte ?thing ??
-rad 2773
-hantering av filering (ind 2). Förekommer på fler fält (jfr TODO rad 2785 (240)+ rad 3214 (440))
+hantering av filering (ind 2). Förekommer på fler fält (jfr TODO 240 + 440)
 
 242
 aboutEntity:work - inte ?thing ???? översatt titel=expression
-
-243
-aboutEntity:? grupptitel=typ anmärkning??
 
 245
 hantering av filering (ind 2).
