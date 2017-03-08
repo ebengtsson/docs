@@ -96,28 +96,70 @@ aboutEntity:work - inte ?thing ???? översatt titel=expression
 245
 hantering av filering (ind 2).
 
-250
-#b hantera betydelsebärande interpunktion? ("=" = upplageuppgift angiven på annat språk ; "/" = upphov)
-
 260
-rad 2979
-Hanteringen av #f håller inte om 260 med både #ab och #ef repeteras. Se t ex id 8257615 (Fornvännen med #abbcef) 
-(motsvarar ex på rad 3026)
-
-Fält 261/262/265 ej definierade i MARC21 (261/262 endast USMARC. 265 obsolete)
+Hanteringen av #ef håller inte om 260 med både #ab och #ef repeteras (gäller periodica). 
+Se t ex id 8257615 (Fornvännen med #abbcef) 
 
 310 #b saknas
 jfr 321
 
-348/370/388 saknas
-
-400/410/411
-rad 3205-3207 hör ej till bib
+348 saknas - Format of Notated Music
+370 saknas - Associated Place
+388 saknas - Time Period of Creation
 
 490
-TODO:ignoreOnRevertInFavourOf": "773?" - innebär?
+TODO:ignoreOnRevertInFavourOf": "773?" - vad betyder det?
+
+647 saknas - Subject Added Entry
+
+658 har hamnat fel (före 656, 657)
+
+785
+"inherit": "780" verkar fel. Borde nog vara 
+ "inherit": "772", (OBS: måste kolla igen)
+      "TOOO:i1": {},
+      "TOOO:i2": {},
+ 
+830 vad är PublicationVolume & vad innebär det här?
+    [jfr definitions/source/vocab/materials: 
+    :BookVolume a owl:Class;
+    rdfs:label "Book Volume"@en, "Bokband"@sv ;
+    skos:altLabel "Band"@sv, "Volym"@sv ;
+    rdfs:subClassOf :Book,
+        :PublicationVolume .]
+
+884 saknas - Description Conversion Information
+885 saknas - Matching Information
+   
+
+auth
+
+147 saknas [Named Event - ny]
+3XX saknas
+430/447/448/451/462/480/481/482/485 saknas
+530/547/548/562/581/582/585 saknas
+64X saknas
+663/664/665/666 saknas
+672/673/677/681/682
+700/710/711/730/747/748/751/762/788 saknas
+880/883/884/885 saknas
+
+hold
+
+000
+rad 4686 StatisticsType
+position 7 är odefinierad i MARC 21
+
+084
+rad 4903
+odefinierad i MARC 21
+
+506/538/583 saknas 
+84X saknas
 
 
+################
+5XX bib - försök att hitta användbara termer i bf2
 501 bf2:accompaniedBy
 506 bf2:usageAndAccessPolicy
 507 bf2:scale
@@ -155,49 +197,3 @@ TODO:ignoreOnRevertInFavourOf": "773?" - innebär?
 586
 590
 
-647 saknas
-658 har hamnat lite fel (före 656, 657)
-
-755 (obsolete)
-
-785
-rad 3797
-"inherit": "780" verkar fel. Borde nog vara 
- "inherit": "772",
-      "TOOO:i1": {},
-      "TOOO:i2": {},
-      
- 890 vad är PublicationVolume & vad innebär det här?
-    [jfr definitions/source/vocab/materials: 
-    :BookVolume a owl:Class;
-    rdfs:label "Book Volume"@en, "Bokband"@sv ;
-    skos:altLabel "Band"@sv, "Volym"@sv ;
-    rdfs:subClassOf :Book,
-        :PublicationVolume .]
-
-884/885 saknas
-
-auth
-
-147 saknas [Named Event - ny]
-3XX saknas
-430/447/448/451/462/480/481/482/485 saknas
-530/547/548/562/581/582/585 saknas
-64X saknas
-663/664/665/666 saknas
-672/673/677/681/682
-700/710/711/730/747/748/751/762/788 saknas
-880/883/884/885 saknas
-
-hold
-
-000
-rad 4686 StatisticsType
-position 7 är odefinierad i MARC 21
-
-084
-rad 4903
-odefinierad i MARC 21
-
-506/538/583 saknas 
-84X saknas
