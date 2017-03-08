@@ -1,0 +1,142 @@
+"017": {"NOTE:record-count": 2408, "ignored": true},	Copyright or Legal Deposit Number
+"018": {"NOTE:record-count": 0, "ignored": true},	Copyright Article-Fee Code
+"025": {"NOTE:record-count": 1170, "ignored": true},	Overseas Acquisition Number
+"026": {"NOTE:record-count": 159, "ignored": true},	Fingerprint Identifier
+"031": {"NOTE:record-count": 16, "ignored": true},	Musical Incipits Information
+"032": {"NOTE:record-count": 625, "ignored": true},	Postal Registration Number
+"036": {"NOTE:record-count": 118, "ignored": true},	Original Study Number for Computer Data Files
+"037": {},		Source of Acquisition
+"038": {},		Record Content Licensor
+"043": {"ignored": true},		Geographic Area Code
+"044": {},		Country of Publishing/Producing Entity Code	
+"045": {},		Time Period of Content 
+"046": {},		Special Coded Dates 
+"047": {},		Form of Musical Composition Code
+"048": {},		Number of Musical Instruments or Voices Codes
+"049": {},		#Saknas i MARC21
+"051": {},		Library of Congress Copy, Issue, Offprint Statement
+"052": {},		Geographic Classification 
+"055": {},		Classification Numbers Assigned in Canada 
+"061": {},		National Library of Medicine Copy Statement 
+"066": {},		Character Sets Present
+"070": {},		National Agricultural Library Call Number
+"071": {},		National Agricultural Library Copy Statement 
+"074": {},		GPO Item Number 
+"085": {},		Synthesized Classification Number Components 
+"086": {},		Government Document Classification Number 
+"088": {},		Report Number
+"090": {},		Local Call Numbers
+"099": {},		Local Call Numbers
+"249": {},		Originaltitel (OBSOLET)
+"254": {},		Musical Presentation Statement 
+"257": {},		Country of Producing Entity 
+"258": {},		Philatelic Issue Data
+"261": {},		Imprint Statement for Films (Pre-AACR 1 Revised) [USMARC only]
+"262": {},		Imprint Statement for Sound Recordings (Pre-AACR 2) [USMARC only]
+"263": {},		Projected Publication Date
+"265": {},		Source for Acquisition/Subscription Address [OBSOLETE, 1993]
+"270": {},		Address
+"306": {},		Playing Time
+"307": {},		Hours, etc. 
+"340": {},		Physical Medium 
+"342": {},		Geospatial Reference Data
+"343": {},		Planar Coordinate Data 
+"344": {},		Sound Characteristics
+"345": {},		Projection Characteristics of Moving Image
+"346": {},		Video Characteristics 
+"347": {},		Digital File Characteristics
+"351": {},		Organization and Arrangement of Materials
+"352": {},		Digital Graphic Representation	
+"355": {},		Security Classification Control 
+"357": {},		Originator Dissemination Control
+"363": {},		Normalized Date and Sequential Designation
+"365": {},		Trade Price
+"366": {},		Trade Availability Information
+"377": {},		Associated Language
+"380": {},		Form of Work 
+"381": {},		Other Distinguishing Characteristics of Work or Expression
+"382": {},		Medium of Performance
+"383": {},		Numeric Designation of Musical Work
+"384": {},		Key
+"385": {},		Audience Characteristics
+"386": {},		Creator/Contributor Characteristics
+"400": {},		Series Statement/Added Entry-Personal Name [USMARC only]
+"410": {},		Series Statement/Added Entry-Corporate Name [USMARC only]
+"411": {},		Series Statement/Added Entry−Meeting Name [USMARC only]
+"501": {},		With Note
+"507": {},		Scale Note for Graphic Material
+"513": {},		Type of Report and Period Covered Note 
+"514": {},		Data Quality Note 
+"515": {},		Numbering Peculiarities Note
+"516": {},		Type of Computer File or Data Note
+"518": {},		Date/Time and Place of an Event Note
+"522": {},		Geographic Coverage Note 
+"524": {},		Preferred Citation of Described Materials Note
+"525": {},		Supplement Note
+"526": {},		Study Program Information Note 
+"534": {},		Original Version Note 
+"535": {},		Location of Originals/Duplicates Note
+"536": {},		Funding Information Note 
+"540": {},		Terms Governing Use and Reproduction Note
+"541": {},		Immediate Source of Acquisition Note
+"542": {},		Information Relating to Copyright Status
+"544": {},		Location of Other Archival Materials Note
+"545": {},		Biographical or Historical Data
+"547": {},		Former Title Complexity Note
+"550": {},		Issuing Body Note
+"552": {},		Entity and Attribute Information Note 
+"555": {},		Cumulative Index/Finding Aids Note
+"556": {},		Information About Documentation Note
+"561": {},		Ownership and Custodial History
+"563": {},		Binding Information
+"565": {},		Case File Characteristics Note
+"567": {},		Methodology Note
+"580": {},		Linking Entry Complexity Note
+"581": {},		Publications About Described Materials Note
+"583": {},		Action Note
+"584": {},		Accumulation and Frequency of Use Note
+"585": {},		Exhibitions Note
+"586": {},		Awards Note
+"590": {},		#Saknas i MARC21
+"658": {},		Index Term - Curriculum Objective 
+"662": {},		Subject Added Entry - Hierarchical Place Name
+"690": {},		(69X Local Subject Access Fields)
+"720": {},		Added Entry - Uncontrolled Name
+"751": {},		Added Entry - Geographic Name 
+"752": {},		Added Entry - Hierarchical Place Name 
+"753": {},		System Details Access to Computer Files 
+"754": {},		Added Entry - Taxonomic Identification
+"755": {},		Added Entry - Physical Characteristics [OBSOLETE, 1995]
+"800": {},		Series Added Entry - Personal Name
+"810": {},		Series Added Entry - Corporate Name
+"811": {},		Series Added Entry - Meeting Name
+"841": {},		Holdings Coded Data Values
+"842": {},		Textual Physical Form Designator
+"843": {},		Reproduction Note
+"844": {},		Name of Unit
+"845": {},		Terms Governing Use and Reproduction
+"850": {},		Holding Institution
+"852": {},		Location
+"853": {},		Captions and Pattern - Basic Bibliographic Unit 
+"854": {},		Captions and Pattern - Supplementary Material 
+"855": {},		Captions and Pattern - Indexes
+"863": {},		Enumeration and Chronology - Basic Bibliographic Unit 
+"864": {},		Enumeration and Chronology - Supplementary Material 
+"865": {},		Enumeration and Chronology - Indexes
+"866": {},		Textual Holdings - Basic Bibliographic Unit
+"867": {},		Textual Holdings - Supplementary Material
+"868": {},		Textual Holdings - Indexes 
+"876": {},		Item Information - Basic Bibliographic Unit
+"877": {},		Item Information - Supplementary Material
+"878": {},		Item Information - Indexes 
+"880": {},		Alternate Graphic Representation
+"882": {},		Replacement Record Information 
+"883": {},		Machine-generated Metadata Provenance
+###
+saknas i marcframe
+348 Format of Notated Music
+370 Associated Place
+388 Time Period of Creation647 saknas - Subject Added Entry
+647 Subject Added Entry
+884 Description Conversion Information
+885 Matching Information
