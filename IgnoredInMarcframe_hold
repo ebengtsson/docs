@@ -1,0 +1,61 @@
+"653": {},	Lokal Indexterm - Okontrollerad
+"698": {},	Lokala ämnesord/rubriker (övriga)
+    
+###
+saknas i marcframe (jfrt med https://www.loc.gov/marc/holdings/)
+010 - Library of Congress Control Number  
+016 - National Bibliographic Agency Control Number  
+017 - Copyright or Legal Deposit Number  
+020 - International Standard Book Number  
+022 - International Standard Serial Number  
+027 - Standard Technical Report Number  
+030 - CODEN Designation  
+035 - System Control Number  
+040 - Record Source  
+066 - Character Sets Present  
+337 - Media Type  
+338 - Carrier Type  
+347 - Digital File Characteristics  
+538 - System Details Note  
+583 - Action Note  
+841 - Holdings Coded Data Values  
+842 - Textual Physical Form Designator  
+843 - Reproduction Note  
+844 - Name of Unit  
+845 - Terms Governing Use and Reproduction Note  
+853 - Captions and Pattern - Basic Bibliographic Unit  
+854 - Captions and Pattern - Supplementary Material  
+855 - Captions and Pattern - Indexes  
+864 - Enumeration and Chronology - Supplementary Material  
+865 - Enumeration and Chronology - Indexes  
+876 - Item Information - Basic Bibliographic Unit  
+877 - Item Information - Supplementary Material  
+878 - Item Information - Indexes  
+880 - Alternate Graphic Representation  
+883 - Machine-generated Metadata Provenance  
+884 - Description Conversion Information 
+###
+saknas dessutom jfrt med Voyagermaster
+18=050 1
+19=060 1
+21=072 1
+22=080 1
+23=082 1
+28=500 1
+30=520 1
+37=599 1
+39=610 1
+40=611 1
+41=630 1
+42=648 1
+44=651 1
+46=655 1
+48=700 1
+49=710 1
+50=752 1
+51=787 1
+73=886 1
+74=887 1
+75=948 1
+76=949 1
+77=951 1
