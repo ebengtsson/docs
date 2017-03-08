@@ -9,9 +9,7 @@ saknas i marcframe
 024 - Other Standard Identifier 
 031 - Musical Incipits Information 
 034 - Coded Cartographic Mathematical Data 
-035 - System Control Number 
 045 - Time Period of Heading 
-046 - Special Coded Dates 
 050 - Library of Congress Call Number 
 052 - Geographic Classification 
 053 - LC Classification Number 
@@ -20,7 +18,6 @@ saknas i marcframe
 066 - Character Sets Present 
 070 - National Agricultural Library Call Number 
 072 - Subject Category Code 
-073 - Subdivision Usage 
 075 - Type of Entity 
 080 - Universal Decimal Classification Number 
 086 - Government Document Call Number 
@@ -92,3 +89,14 @@ saknas i marcframe
 883 - Machine-generated Metadata Provenance  
 884 - Description Conversion Information  
 885 - Matching Information 
+#########
+saknas dessutom jfrt med voyagermaster
+2=003 0
+7=016 1
+24=065 1
+35=094 1
+50=260 1
+52=360 1
+84=462 1
+141=886 1	
+142=887 1
