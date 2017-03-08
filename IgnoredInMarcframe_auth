@@ -1,0 +1,96 @@
+auth
+"675" : {
+      "$a":   KLAR?
+
+###
+saknas i marcframe
+010 - Library of Congress Control Number 
+014 - Link to Bibliographic Record for Serial or Multipart Item 
+020 - International Standard Book Number 
+022 - International Standard Serial Number 
+024 - Other Standard Identifier 
+031 - Musical Incipits Information 
+034 - Coded Cartographic Mathematical Data 
+035 - System Control Number 
+045 - Time Period of Heading 
+046 - Special Coded Dates 
+050 - Library of Congress Call Number 
+052 - Geographic Classification 
+053 - LC Classification Number 
+055 - Library and Archives Canada Call Number 
+060 - National Library of Medicine Call Number 
+066 - Character Sets Present 
+070 - National Agricultural Library Call Number 
+072 - Subject Category Code 
+073 - Subdivision Usage 
+075 - Type of Entity 
+080 - Universal Decimal Classification Number 
+086 - Government Document Call Number 
+087 - Government Document Classification Number 
+09X - Local Call Numbers 
+147 - Heading - Named Event
+336 - Content Type 
+348 - Format of Notated Music 
+368 - Other Attributes of Person or Corporate Body 
+370 - Associated Place 
+371 - Address 
+372 - Field of Activity 
+373 - Associated Group 
+374 - Occupation 
+375 - Gender 
+376 - Family Information 
+377 - Associated Language 
+378 - Fuller Form of Personal Name
+380 - Form of work 
+381 - Other Distinguishing Characteristics of Work or Expression 
+382 - Medium of Performance 
+383 - Numeric Designation of Musical Work 
+384 - Key 
+385 - Audience Characteristics 
+386 - Creator/Contributor Characteristics 
+388 - Time Period of Creation 
+430 - See From Tracing - Uniform Title
+447 - See From Tracing - Named Event
+448 - See From Tracing - Chronological Term
+451 - See From Tracing - Geographic Name 
+462 - See From Tracing - Medium of Performance Term 
+480 - See From Tracing - General Subdivision 
+481 - See From Tracing - Geographic Subdivision 
+482 - See From Tracing - Chronological Subdivision 
+485 - See From Tracing - Form Subdivision 
+530 - See Also From Tracing - Uniform Title 
+547 - See Also From Tracing - Named Event 
+548 - See Also From Tracing - Chronological Term 
+562 - See Also From Tracing - Medium of Performance Term 
+581 - See Also From Tracing - Geographic Subdivision 
+582 - See Also From Tracing - Chronological Subdivision 
+585 - See Also From Tracing - Form Subdivision 
+640 - Series Dates of Publication and/or Sequential Designation  
+641 - Series Numbering Peculiarities  
+642 - Series Numbering Example  
+643 - Series Place and Publisher/Issuing Body  
+644 - Series Analysis Practice  
+645 - Series Tracing Practice  
+646 - Series Classification Practice  
+663 - Complex See Also Reference - Name  
+664 - Complex See Reference - Name  
+665 - History Reference  
+666 - General Explanatory Reference - Name  
+672 - Title Related to the Entity  
+673 - Title Not Related to the Entity  
+677 - Definition  
+681 - Subject Example Tracing Note  
+682 - Deleted Heading Information  
+700 - Established Heading Linking Entry - Personal Name  
+710 - Established Heading Linking Entry - Corporate Name  
+711 - Established Heading Linking Entry - Meeting Name  
+730 - Established Heading Linking Entry - Uniform Title  
+747 - Established Heading Linking Entry - Named Event  
+748 - Established Heading Linking Entry - Chronological Term
+751 - Established Heading Linking Entry - Geographic Name
+762 - Established Heading Linking Entry - Medium of Performance Term
+788 - Complex Linking Entry Data 
+880 - Alternate Graphic Representation  
+883 - Machine-generated Metadata Provenance  
+884 - Description Conversion Information  
+885 - Matching Information 
