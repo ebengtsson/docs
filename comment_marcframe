@@ -131,35 +131,22 @@ TODO:ignoreOnRevertInFavourOf": "773?" - vad betyder det?
 884 saknas - Description Conversion Information
 885 saknas - Matching Information
    
-
 auth
 
-147 saknas [Named Event - ny]
-3XX saknas
-430/447/448/451/462/480/481/482/485 saknas
-530/547/548/562/581/582/585 saknas
-64X saknas
-663/664/665/666 saknas
-672/673/677/681/682
-700/710/711/730/747/748/751/762/788 saknas
-880/883/884/885 saknas
+000
+position 18 saknas (ny)  Punctuation policy
+
 
 hold
 
 000
-rad 4686 StatisticsType
+StatisticsType
 position 7 är odefinierad i MARC 21
 
-084
-rad 4903
-odefinierad i MARC 21
 
-506/538/583 saknas 
-84X saknas
-
-
-################
+########
 5XX bib - försök att hitta användbara termer i bf2
+#########
 501 bf2:accompaniedBy
 506 bf2:usageAndAccessPolicy
 507 bf2:scale
