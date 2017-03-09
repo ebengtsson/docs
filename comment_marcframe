@@ -56,7 +56,7 @@ Borde väl vara NotatedMusicType eller ngt liknande
 
 007 RemoteSensingImage
 rad 1428 KitMaterialTyp
-eBorde väl vara emoteSensingImageType eller ngt liknande
+Borde väl vara emoteSensingImageType eller ngt liknande
 
 007 SoundRecording
 rad 1527 MapAspectType
@@ -103,14 +103,8 @@ Se t ex id 8257615 (Fornvännen med #abbcef)
 310 #b saknas
 jfr 321
 
-348 saknas - Format of Notated Music
-370 saknas - Associated Place
-388 saknas - Time Period of Creation
-
 490
 TODO:ignoreOnRevertInFavourOf": "773?" - vad betyder det?
-
-647 saknas - Subject Added Entry
 
 658 har hamnat fel (före 656, 657)
 
@@ -128,9 +122,6 @@ TODO:ignoreOnRevertInFavourOf": "773?" - vad betyder det?
     rdfs:subClassOf :Book,
         :PublicationVolume .]
 
-884 saknas - Description Conversion Information
-885 saknas - Matching Information
-   
 auth
 
 000
