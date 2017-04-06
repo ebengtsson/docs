@@ -1,1 +1,191 @@
+@prefix rdacontent: <http://rdvocab.info/termList/RDAContentType/> .
+@prefix rdacarrier: <http://rdvocab.info/termList/RDACarrierType/> .
+@prefix : <https://id.kb.se/vocab/> .
+@prefix xx: <https://id.kb.se/vocab/xx> .
+#@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+#@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+#@prefix owl: <http://www.w3.org/2002/07/owl#> .
+#@prefix bf2: <http://id.loc.gov/ontologies/bibframe/> .
+#@prefix rdamedia: <http://rdvocab.info/termList/RDAMediaType/> .
 
+<bok-tryckt> a :Print ;
+    :Instance [ a :Text ; :issuanceType :Monograph ] ;
+    :mediaType :Unmediated ;
+    :carrierType :Volume .
+
+<bok-manuskript> a :Manuscript ;
+    :Instance [ a :Text ; :issuanceType :Monograph ] ;
+    :mediaType :Unmediated ;
+    :carrierType :Volume .
+
+<e-bok-fil> a :Electronic ;
+    :instanceOf [ a :Text ; :issuanceType :Monograph ] ;
+    :mediaType :Computer .
+
+<artikel-tryckt-i-bok> a :Print ;
+    :Instance [ a :Text ; :issuanceType :MonographicComponentPart ] ;
+    :mediaType :Unmediated .
+
+<artikel-tryckt-i-tidskrift> a :Print ;
+    :Instance [ a :Text ; :issuanceType :SerialComponentPart ] ;
+    :mediaType :Unmediated .
+
+<e-artikel-i-tidskrift> a :Electronic ;
+    :Instance [ a :Text ; :issuanceType :SerialComponentPart ] ;
+    :mediaType :Computer .
+
+<tryckt-bok-beställ> a :Print ;
+    :Instance [ a :Text ; :issuanceType xx:Preliminary ] ;
+    :mediaType :Unmediated .
+
+<e-bok-beställ> a :Electronic ;
+    :Instance [ a :Text ; :issuanceType xx:Preliminary ] ;
+    :mediaType :Computer .
+
+<tidskrift-tryckt> a :Print ;
+    :Instance [ a :Text ; :issuanceType :Continuing ] ;
+    :mediaType :Unmediated ;
+    :carrierType :Volume .
+    #+typ 008/21 periodika/monografiserie
+    #täcker både tidskriften som abstraktion och de enskilda numren
+    #jfr monografiserie-tryckt som bara täcker abstraktionen
+
+<e-tidskrift> a :Electronic ;
+    :Instance [ a :Text ; :issuanceType :Continuing ] ;
+    :mediaType :Computer .
+    #+typ 008/21 periodika/monografiserie
+
+<monografiserie-tryckt> a :Print ;
+    :Instance [ a :Text ; :issuanceType :Continuing ] .
+    #+typ 008/21 periodika/monografiserie
+    #abstraktion
+    # :mediaType :carrierType sätts på respektive del/monografi
+
+<stillbild-tryckt> a :Print ;
+    :Instance [ a :StillImage ; :issuanceType :Monograph ] ;
+    :mediaType :Unmediated ;
+    :carrierType :Card . #Sheet
+
+<stillbild-handritad> a :Manuscript ;
+    :Instance [ a :StillImage ; :issuanceType :Monograph ] ;
+    :mediaType :Unmediated ;
+    :carrierType :Card .  #Sheet
+
+<stillbild-fil> a :Electronic ;
+    :Instance [ a :StillImage ; :issuanceType :Monograph ] ;
+    :mediaType :Computer .
+
+<stillbild-dia> a :Instance ;
+    :Instance [ a :StillImage ; :issuanceType :Monograph ] ;
+    :mediaType :Projected .
+
+<karta-tryckt> a :Print ;
+    :Instance [ a :Cartography ; :issuanceType :Monograph ] ;
+    :mediaType :Unmediated ;
+    :carrierType :Sheet .
+
+<karta-handritad> a :Manuscript ;
+    :Instance [ a :Cartography ; :issuanceType :Monograph ] ;
+    :mediaType :Unmediated ;
+    :carrierType :Sheet .
+
+<karta-fil> a :Electronic ;
+    :Instance [ a :Cartography ; :issuanceType :Monograph ] ;
+    :mediaType :Computer .
+
+<karta-databas> a :Electronic ;
+    :Instance [ a :Cartography ; :issuanceType :Continuing ] ;
+    :mediaType :Computer .
+    #+typ 008/21 databas som uppdateras
+
+<multimedium-datorspel-dvd> a :Instance ; #print?
+    :Instance [ a :Multimedia ; :issuanceType :Monograph ] ;
+    :mediaType :Computer .
+
+<multimedium-datorspel-minneskort> a :Instance ; #print?
+    :Instance [ a :Multimedia ; :issuanceType :Monograph ] ;
+    :mediaType :Computer . #eller ngn typ av konsol
+
+<multimedium-datorspel-online> a :Electronic ;
+    :Instance [ a :Multimedia ; :issuanceType :Monograph ] ;
+    :mediaType :Computer . #eller telefon etc
+
+<musiknoter-tryck> a :Print ;
+    :Instance [ a :NotatedMusic ; :issuanceType :Monograph ] ;
+    :mediaType :Unmediated ;
+    :carrierType :Volume . #Sheet
+
+<musiknoter-fil> a :Electronic ;
+    :Instance [ a :NotatedMusic ; :issuanceType :Monograph ] ;
+    :mediaType :Computer .
+
+<musikupptagning-skiva> a :Instance ; #Print?
+    :Instance [ a :Audio ; :issuanceType :Monograph ] ;
+    :contentType rdacontent:1011 ; #"performed music" @en 
+    :mediaType :Audio ;
+    :carrierType rdacarrier:1004 . #"audio disc" @en
+
+<musikupptagning-fil> a :Electronic ;
+    :Instance [ a :Audio ; :issuanceType :Monograph ] ;
+    :contentType rdacontent:1011 ; #"performed music" @en
+    :mediaType :Computer .
+
+<ljudbok-cd> a :Instance ; #Print?
+    :instanceOf [ a :Audio ; :issuanceType :Monograph ] ;
+    :contentType rdacontent:1013 ; #"spoken word" @en 
+    :mediaType :Audio ;
+    :carrierType rdacarrier:1004 . #"audio disc" @en 
+
+<ljudbok-fil> a :Computer ;
+    :instanceOf [ a :Audio ; :issuanceType :Monograph ] ;
+    :contentType rdacontent:1013 ; #"spoken word" @en
+    :mediaType :Audio . #Computer?
+    #:carrierType rdact:1018 "online resource" @en
+    #funkar inte att ange carrierType enligt RDA. Ljudfil saknas
+
+<spelfilm-video-2D-DVD> a :Instance ; #Print?
+    :instanceOf [ a :MovingImage ; :issuanceType :Monograph ] ;
+    :contentType rdacontent:1023 ; #"two-dimensional moving image" @en
+    :mediaType :Video ;
+    :carrierType rdacarrier:1060 . #"videodisc" @en 
+    #RDA skiljer på 2D och 3D
+
+#<spelfilm-video-3D DVD> a :Instance ; #Print?
+#    :instanceOf [ a :MovingImage ; :issuanceType :Monograph ] ;
+#    :contentType rdacontent:1022 ; #"three-dimensional moving image" @en
+#    :mediaType :Video ;
+#    :carrierType rdacarrier:1060 . #"videodisc" @en 
+
+<spelfilm-video-Blu-ray> a :Instance ; #Print?
+    :instanceOf [ a :MovingImage ; :issuanceType :Monograph ] ;
+    :mediaType :Video ;
+    :carrierType rdacarrier:1060 . #"videodisc" @en 
+
+<spelfilm-video-fil> a :Electronic ;
+    :instanceOf [ a :MovingImage ; :issuanceType :Monograph ] ;
+    :mediaType :Video . #Computer?
+    #:carrierType rdact:1018 "online resource" @en
+    #funkar inte att ange carrierType enligt RDA. Videofil saknas
+
+<spelfilm-filmbas> a :Instance ;
+    :instanceOf [ a :MovingImage ; :issuanceType :Monograph ] ;
+    :mediaType :Projected ;
+    :carrierType rdacarrier:1034 . #"film reel" @en 
+
+<paket-bok-ljudbok-tryck-cd> a :Print, :Instance ; #MixedMaterial
+    :instanceOf [ a :Text, :Audio ; :issuanceType :Monograph ] ;
+    :mediaType :Unmediated, :Audio ;
+    :carrierType :Volume, rdacarrier:1004 . #"audio disc" @en 
+    #MixedMaterial passar inte här. Motsvarar närmast arkivsamling
+
+<paket-bok-ljudbok-fil> a :Electronic ; #Audio?
+    :instanceOf [ a :Text, :Audio ; :issuanceType :Monograph ] ;
+    :mediaType :Computer, :Audio ;
+    :carrierType rdacarrier:1018 . #a"online resource" @en
+    #funkar bara att ange online-fil enligt RDA. Inte fil offline
+    #MixedMaterial passar inte här. Motsvarar närmast arkivsamling. Gäller
+    #dessutom endast icke-digitalt material  (BF2: "Resource comprised of multiple
+    #types which are not driven by software")
+
+#<holding-exemplar>
+#<auktoritet>
