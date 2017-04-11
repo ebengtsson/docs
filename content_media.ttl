@@ -98,11 +98,11 @@
     :mediaType :Computer .
     #+typ 008/21 databas som uppdateras
 
-<multimedium-datorspel-dvd> a :Instance ; #print?
+<multimedium-datorspel-dvd> a :Instance ; 
     :Instance [ a :Multimedia ; :issuanceType :Monograph ] ;
     :mediaType :Computer .
 
-<multimedium-datorspel-minneskort> a :Instance ; #print?
+<multimedium-datorspel-minneskort> a :Instance ; 
     :Instance [ a :Multimedia ; :issuanceType :Monograph ] ;
     :mediaType :Computer . #eller ngn typ av konsol
 
@@ -119,44 +119,50 @@
     :Instance [ a :NotatedMusic ; :issuanceType :Monograph ] ;
     :mediaType :Computer .
 
-<musikupptagning-skiva> a :Instance ; #Print?
-    :Instance [ a :Audio ; :issuanceType :Monograph ] ;
+<musikupptagning-skiva> a :Instance ; 
+    :instanceOf [ a :Audio ; :issuanceType :Monograph ; 
     :contentType rdacontent:1011 ; #"performed music" @en 
+         ] ;
     :mediaType :Audio ;
     :carrierType rdacarrier:1004 . #"audio disc" @en
 
 <musikupptagning-fil> a :Electronic ;
-    :Instance [ a :Audio ; :issuanceType :Monograph ] ;
+    :instanceOf [ a :Audio ; :issuanceType :Monograph ;
     :contentType rdacontent:1011 ; #"performed music" @en
+         ] ;
     :mediaType :Computer .
 
-<ljudbok-cd> a :Instance ; #Print?
-    :instanceOf [ a :Audio ; :issuanceType :Monograph ] ;
-    :contentType rdacontent:1013 ; #"spoken word" @en 
+<ljudbok-cd> a :Instance ; 
+    :instanceOf [ a :Audio ; :issuanceType :Monograph ;
+    :contentType rdacontent:1013 ; #"spoken word" @en
+                 ] ;
     :mediaType :Audio ;
     :carrierType rdacarrier:1004 . #"audio disc" @en 
 
 <ljudbok-fil> a :Computer ;
-    :instanceOf [ a :Audio ; :issuanceType :Monograph ] ;
+    :instanceOf [ a :Audio ; :issuanceType :Monograph ;
     :contentType rdacontent:1013 ; #"spoken word" @en
+                 ] ;
     :mediaType :Audio . #Computer?
     #:carrierType rdact:1018 "online resource" @en
     #funkar inte att ange carrierType enligt RDA. Ljudfil saknas
 
-<spelfilm-video-2D-DVD> a :Instance ; #Print?
-    :instanceOf [ a :MovingImage ; :issuanceType :Monograph ] ;
+<spelfilm-video-2D-DVD> a :Instance ;
+    :instanceOf [ a :MovingImage ; :issuanceType :Monograph ;
     :contentType rdacontent:1023 ; #"two-dimensional moving image" @en
+                 ] ;
     :mediaType :Video ;
     :carrierType rdacarrier:1060 . #"videodisc" @en 
     #RDA skiljer på 2D och 3D
 
-#<spelfilm-video-3D DVD> a :Instance ; #Print?
-#    :instanceOf [ a :MovingImage ; :issuanceType :Monograph ] ;
+#<spelfilm-video-3D DVD> a :Instance ; 
+#    :instanceOf [ a :MovingImage ; :issuanceType :Monograph ;
 #    :contentType rdacontent:1022 ; #"three-dimensional moving image" @en
+#                ] ;
 #    :mediaType :Video ;
 #    :carrierType rdacarrier:1060 . #"videodisc" @en 
 
-<spelfilm-video-Blu-ray> a :Instance ; #Print?
+<spelfilm-video-Blu-ray> a :Instance ;
     :instanceOf [ a :MovingImage ; :issuanceType :Monograph ] ;
     :mediaType :Video ;
     :carrierType rdacarrier:1060 . #"videodisc" @en 
